@@ -1,4 +1,4 @@
-use client
+"use client";
 
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
@@ -28,7 +28,7 @@ export default function Home() {
         <TokenBillboardHero
           title="Welcome to Xeven!"
           subtitle="Your gateway to the future of SaaS solutions."
-          contractAddress="0x123456...
+          contractAddress="0x123456..."
           copyButtonText="Copy Address"
           copiedText="Address Copied!"
         />
