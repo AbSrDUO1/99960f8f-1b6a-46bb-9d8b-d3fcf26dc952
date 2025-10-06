@@ -19,9 +19,9 @@ export default function Home() {
         <NavbarStyleMinimal 
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Logo"
-          className="bg-transparent"
           buttonText="Get Started"
           onButtonClick={() => { /* Your click handler */ }}
+          className="bg-transparent"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
